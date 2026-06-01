@@ -1,2 +1,3 @@
-# OverFlow-Flow-Launcher-plugin
-A simple minimal , dark theme
+# OverFlow , Flow launcher Theme
+*An overflow of flow on your theme*
+
