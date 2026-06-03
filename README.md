@@ -1,5 +1,5 @@
 # OverFlow , Flow launcher Theme
-> *An overflow of flow on your [Flow Launcher]([https://github.com/Flow-Launcher/Flow.Launcher) theme*
+> *An overflow of flow on your [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher) theme*
 
 previews 
 
