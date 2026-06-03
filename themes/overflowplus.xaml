@@ -104,7 +104,7 @@
                                 <TextBlock 
                                     Text="{Binding ElementName=ResultListBox, Path=SelectedItem.Result.Title}"
                                     Foreground="#40f0f0f0"
-                                    FontFamily="Cascadia Code"
+                                    FontFamily="Cascadia Code" <!-- recomanded : "Cascadia Code -->
                                     FontSize="{TemplateBinding FontSize}"
                                     VerticalAlignment="Center" />
                                     
