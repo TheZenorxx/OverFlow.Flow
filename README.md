@@ -1,7 +1,7 @@
 # OverFlow , Flow launcher Theme
 > *An overflow of flow on your [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher) theme*
 
-previews 
+## previews 
 
 ![Flow capture](https://github.com/ZenorxxX/OverFlow.Flow/blob/main/images/Flow.capture.plus.png?raw=true)
 
