@@ -5,13 +5,17 @@
 -->
 
 <ResourceDictionary
-  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-  xmlns:system="clr-namespace:System;assembly=mscorlib">
-  <ResourceDictionary.MergedDictionaries>
-    <ResourceDictionary Source="pack://application:,,,/Themes/Base.xaml" />
-  </ResourceDictionary.MergedDictionaries>
-
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/Themes/Base.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+    <system:Boolean x:Key="ThemeBlurEnabled">True</system:Boolean>
+    <system:String x:Key="SystemBG">Light</system:String>
+    <Color x:Key="LightBG">#28FAFAFA</Color>
+    <Color x:Key="DarkBG">#28FAFAFA</Color>
+    <Thickness x:Key="ResultMargin">0 0 0 8</Thickness>
 
   <!-- BLUR -->
   <system:Boolean x:Key="ThemeBlurEnabled">False</system:Boolean>
