@@ -9,6 +9,12 @@
 
   <!-- BLUR -->
   <system:Boolean x:Key="ThemeBlurEnabled">False</system:Boolean>
+  
+  <!-- IMAGE -->
+  <PathGeometry 
+     x:Key="SearchIconImg" 
+     Figures="M31.3975 33.1615C28.601 35.5546 24.9693 37 21 37C12.1634 37 5 29.8366 5 21C5 12.1634 12.1634 5 21 5C29.8366 5 37 12.1634 37 21C37 24.9674 35.556 28.5975 33.1649 31.3934L42.6376 40.8661C43.1257 41.3542 43.1257 42.1457 42.6376 42.6338C42.1494 43.122 41.3579 43.122 40.8698 42.6338L31.3975 33.1615ZM34.5 21C34.5 13.5442 28.4558 7.5 21 7.5C13.5442 7.5 7.5 13.5442 7.5 21C7.5 28.4558 13.5442 34.5 21 34.5C28.4558 34.5 34.5 28.4558 34.5 21Z" />
+
 
 
   <!-- WINDOW -->
@@ -57,15 +63,15 @@
     
   <!-- SEARCH ICON -->
   <Style x:Key="SearchIconPosition" TargetType="{x:Type Canvas}">
-    <Setter Property="Width" Value="32" />
-    <Setter Property="Height" Value="32" />
+    <Setter Property="Width" Value="28" />
+    <Setter Property="Height" Value="28" />
     <Setter Property="HorizontalAlignment" Value="Right" />
     <Setter Property="Margin" Value="10,0,10,2" />
   </Style>
   <Style x:Key="SearchIconStyle" TargetType="{x:Type Path}">
     <Setter Property="Fill" Value="#bebec1" />
-    <Setter Property="Width" Value="32" />
-    <Setter Property="Height" Value="32" />
+    <Setter Property="Width" Value="28" />
+    <Setter Property="Height" Value="28" />
   </Style>
   <!-- PLUGIN ICON -->
   <Style x:Key="PluginActivationIcon" TargetType="{x:Type Image}">
@@ -217,5 +223,36 @@
   <Style x:Key="PreviewSep" TargetType="{x:Type Separator}">
     <Setter Property="Visibility" Value="hidden" />
   </Style>
+  <!-- TIME AND DATE -->
+  
+  <Style
+        x:Key="ClockPanel"
+        BasedOn="{StaticResource ClockPanel}"
+        TargetType="{x:Type StackPanel}">
+        <Setter Property="Margin" Value="0 0 40 0" />
+    </Style>
+    <Style
+        x:Key="ClockBox"
+        BasedOn="{StaticResource BaseClockBox}"
+        TargetType="{x:Type TextBlock}">
+        <Setter Property="Margin" Value="0 0 0 0" />
+        <Setter Property="Foreground" Value="#fff" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="FontStyle" Value="Normal" />
+        <Setter Property="FontWeight" Value="Normal" />
+    </Style>
+    <Style
+        x:Key="DateBox"
+        BasedOn="{StaticResource BaseDateBox}"
+        TargetType="{x:Type TextBlock}">
+        <Setter Property="Margin" Value="0 0 0 0" />
+        <Setter Property="Foreground" Value="#fff" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="FontStyle" Value="Normal" />
+        <Setter Property="FontWeight" Value="Normal" />
+    </Style>
+  
+    
 
 </ResourceDictionary>
+
