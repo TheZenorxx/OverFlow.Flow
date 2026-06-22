@@ -300,15 +300,13 @@
   <Style x:Key="PreviewSep" TargetType="{x:Type Separator}">
     <Setter Property="Visibility" Value="hidden" />
   </Style>
-
+  <!-- TIME AND DATE -->
   <Style
         x:Key="ClockPanel"
         BasedOn="{StaticResource ClockPanel}"
         TargetType="{x:Type StackPanel}">
         <Setter Property="Margin" Value="0 0 40 0" />
     </Style>
-
-    <!-- Time text block -->
     <Style
         x:Key="ClockBox"
         BasedOn="{StaticResource BaseClockBox}"
@@ -319,8 +317,6 @@
         <Setter Property="FontStyle" Value="Normal" />
         <Setter Property="FontWeight" Value="Normal" />
     </Style>
-    
-    <!-- Date text block -->
     <Style
         x:Key="DateBox"
         BasedOn="{StaticResource BaseDateBox}"
@@ -331,6 +327,6 @@
         <Setter Property="FontStyle" Value="Normal" />
         <Setter Property="FontWeight" Value="Normal" />
     </Style>
-  
-    
+      
 </ResourceDictionary>
+
